@@ -1,6 +1,6 @@
 Forked from https://github.com/alexzuza/angular-cli-lazy, refactored into dynamic-loader.service.ts
 
-# AngularCliLazy
+# AngularCliLazy - Demo (which includes reusable DynamicLoaderService)
 
 This project shows how to manually lazy load an `NgModule` and associated `Component`s in an `angular-cli` application, without the Angular `Router`, by simply using a function call.
 
@@ -8,7 +8,7 @@ In angular, NgModules will be compiled out to separate .js files, which gives th
 
 Here we provide a `DynamicLoaderService` which has methods to `load` the module, and `create` components from the module.
 
-# Docs
+# Docs for the DynamicLoaderService
 
 ```
 Dynamically load an NgModule's corresponding .js bundle
