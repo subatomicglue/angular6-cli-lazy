@@ -10,7 +10,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "clobber": "rm -rf node_modules dist package-lock.json"
+    "clobber": "rm -rf node_modules dist package-lock.json",
+    "reinstall": "npm run clobber; npm install"
   },
   "private": true,
   "dependencies": {
